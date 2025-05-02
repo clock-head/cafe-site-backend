@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 4000;
 //Middleware
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://sunrise-cafe-ae8267.netlify.app',
     method: ['POST'],
   })
 );
